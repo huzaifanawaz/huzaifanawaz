@@ -1,10 +1,5 @@
 ### Hi there 👋
 
-<!--
-**huzaifanawaz/huzaifanawaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working in many student communities MLSA, GDSC, etc. 
 - 🌱 I’m currently learning Quantum Computing, Quantum Information Science, and Android development. 
 - 👯 I’m looking to collaborate on Quantum related resources.
@@ -13,4 +8,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: (LinkedIn, Mail, Instagram, Facebook)
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love everything about emerging technologies but they are hard to learn :(
--->
