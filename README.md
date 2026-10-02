@@ -50,24 +50,6 @@ High-level scope (no proprietary product or client detail):
 - Improve reliability under load (process isolation for GPU/OCR memory issues, structured logging, stale-feed detection).
 </details>
 
-<details>
-<summary><b>Data Engineering Intern</b> | Bytewise Limited (Jun–Oct 2024)</summary>
-
-**Remote, Pakistan**  
-
-- Worked with PostgreSQL, ETL/ELT pipelines, PySpark, Apache Kafka, and data warehousing.
-- Built and exercised scalable data solutions in cloud environments.
-</details>
-
-<details>
-<summary><b>Freelance Data Analyst</b> | Self-Employed</summary>
-
-**~1.5 years**  
-
-- Delivered insights for clients using SQL, Tableau, Power BI, Excel, and Python.
-- Supported data-driven decisions across multiple industries.
-</details>
-
 ---
 
 ## 🧩 What I Work On
@@ -85,7 +67,7 @@ Abstract themes only — no internal repo names, file paths, or customer identif
 ---
 
 ## 🎓 Education
-- **MS Computer Science** — National University of Sciences and Technology (NUST) · 2024–2025
+- **MS Computer Science** — National University of Sciences and Technology (NUST) [dropped out for market experience] · 2024–2025
 - **BS Information Technology** — The Islamia University of Bahawalpur · 2020–2024
 
 ---
