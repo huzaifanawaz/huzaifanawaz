@@ -35,14 +35,17 @@ I build **production vision systems** for manufacturing — real-time QC pipelin
 
 ## Languages
 
-| | |
-|---|---|
-| **Primary** | **Python** |
-| **Web** | **JavaScript**, **TypeScript**, **HTML**, **CSS** |
-| **Data / query** | **SQL** |
-| **Markup / docs** | Markdown |
+[![Languages](https://skillicons.dev/icons?i=py,js,ts,html,css,postgres,md)](https://skillicons.dev)
+
+- **Python** — primary language for vision, training, and services
+- **JavaScript** / **TypeScript** — operator UIs and web tooling
+- **SQL** — data and analytics
+- **HTML** / **CSS** — frontend markup and styling
+- **Markdown** — docs and READMEs
 
 ## Skills
+
+[![Technologies](https://skillicons.dev/icons?i=opencv,fastapi,flask,docker,mongodb,kafka,linux,azure,react,tailwind,vite,git,github&perline=7)](https://skillicons.dev)
 
 ### Computer vision
 **OpenCV** · **YOLOv8 / YOLOv11** · **PaddleOCR** · **NumPy** · GigE Vision · segmentation · OBB · defect detection
@@ -57,7 +60,7 @@ I build **production vision systems** for manufacturing — real-time QC pipelin
 **Linux** · systemd · **Azure DevOps** · iptables · PLC integration · industrial printers
 
 ### Frontend
-**React** · **Tailwind CSS** · Jinja2 · Vite
+**React** · **Tailwind CSS** · Jinja2 · **Vite**
 
 ## Leadership
 
