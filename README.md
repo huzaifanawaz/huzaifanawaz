@@ -39,14 +39,14 @@ Background in Computer Science, prior data engineering experience, and a track r
 
 **Lahore, Pakistan** · Manufacturing IoT / Vision AI  
 
-ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance (OEE, quality, downtime). My work sits on the vision side of that stack:
+Working on computer vision for manufacturing performance software (public product space: camera-based monitoring and analytics):
 
-- Design and implement computer vision algorithms for object detection, image segmentation, classification, and tracking.
+- Design and implement CV algorithms for detection, segmentation, classification, and tracking.
 - Build real-time video analytics pipelines with OpenCV, YOLO, and related frameworks.
-- Preprocess, augment, and label data to improve model performance in production settings.
-- Optimize and deploy models on edge devices and cloud infrastructure.
-- Collaborate with data scientists, software engineers, and product managers to ship factory-ready systems.
-- Stay current with computer vision and deep learning research and apply what holds up in the field.
+- Improve models through careful data prep (preprocess, augment, label).
+- Optimize and deploy models on edge devices or cloud infrastructure.
+- Partner with engineering and product teams to ship production-ready systems.
+- Keep up with CV / deep learning research that holds up outside the notebook.
 </details>
 
 <details>
@@ -87,17 +87,18 @@ ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance 
 ---
 
 ## 🛠️ Skills
+Skills below are drawn from public role descriptions and public GitHub work only — no internal systems, clients, or proprietary company details.
+
 ### AI & Computer Vision
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Vision-green?logo=opencv)
 ![YOLO](https://img.shields.io/badge/YOLO-Detection-red)
-![Git](https://img.shields.io/badge/Git-Version_Control-red?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Projects-black?logo=github)
-- Object detection, segmentation, classification, tracking
-- Real-time video analytics & inference pipelines
-- Data preprocessing, augmentation, and labeling
-- Edge & cloud model deployment
-- Deep learning research applied to industrial systems
+![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker)
+- Object detection, segmentation, classification, and tracking
+- Real-time video analytics and inference pipelines
+- Dataset prep: preprocessing, augmentation, labeling workflows
+- Model packaging and deployment to edge or cloud targets
+- Applied deep learning for industrial / manufacturing use cases
 
 ### Data & Cloud
 ![SQL](https://img.shields.io/badge/SQL-Database-green?logo=postgresql)
@@ -105,7 +106,25 @@ ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance 
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange?logo=tableau)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboards-yellow?logo=powerbi)
 - ETL/ELT, PySpark, data warehousing
-- Analytics, visualization, cloud (Azure, IBM Cloud)
+- Analytics, visualization, cloud fundamentals (Azure, IBM Cloud)
+
+### Frontend & Web (from public repos / PRs)
+![TypeScript](https://img.shields.io/badge/TypeScript-Typed_JS-blue?logo=typescript)
+![React](https://img.shields.io/badge/React-UI-61DAFB?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-Markup-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3)
+- React + TypeScript portfolio (Vite, Tailwind)
+- Interactive UI / Hacktoberfest contributions (scroll effects, video player, CSS interactions)
+- Static sites and responsive layouts
+
+### Tooling & Collaboration
+![Git](https://img.shields.io/badge/Git-Version_Control-red?logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Collaboration-black?logo=github)
+- Pull requests, code review, and GitHub Skills workflows
+- Markdown documentation and open-source contribution habits
+- Containerized demos and simple web app packaging
 
 ### Soft Skills
 - Leadership & mentorship
