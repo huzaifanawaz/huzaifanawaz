@@ -1,6 +1,7 @@
 # 👋 Huzaifa Nawaz
- 
-**AI Engineer @ [ThingTrax](https://thingtrax.com)** — building computer vision systems that help manufacturers see, measure, and optimize production in real time.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Huzaifa_Nawaz-blue?logo=linkedin)](https://linkedin.com/in/huzaifanawaz)  
+**Computer Vision / MLOps Engineer @ [ThingTrax](https://thingtrax.com)** — shipping industrial vision and training systems that run on real production lines.
 
 ---
 
@@ -8,6 +9,7 @@
 - [About Me](#-about-me)
 - [Contact Information](#-contact-information)
 - [Professional Experience](#-professional-experience)
+- [What I Work On](#-what-i-work-on)
 - [Education](#-education)
 - [Honors & Awards](#-honors--awards)
 - [Skills](#-skills)
@@ -16,11 +18,11 @@
 ---
 
 ## 🌟 About Me
-I'm an AI Engineer focused on **computer vision for manufacturing**. At ThingTrax, I design and ship detection, segmentation, classification, and tracking models that power real-time video analytics on production lines — from data prep and training through edge and cloud deployment.
+I'm a Computer Vision / MLOps Engineer focused on **production-grade vision for manufacturing**. I build real-time QC pipelines (detection, segmentation, OCR, measurement), harden them for 24/7 edge servers, and back them with training infrastructure — multi-GPU orchestration, dataset/version workflows, and evaluation.
 
-Background in Computer Science, prior data engineering experience, and a track record of leading student tech communities. I care about models that actually run in factories, not just notebooks.
+Prior data engineering and analytics background, plus years leading student tech communities. I care about systems that survive factory networks, camera drops, and GPU memory pressure — not demos that only work on a laptop.
 
-> *"Teaching cameras to understand the factory floor — one pipeline at a time."*
+> *"Teaching cameras to understand the factory floor — one reliable pipeline at a time."*
 
 ---
 
@@ -34,20 +36,33 @@ Background in Computer Science, prior data engineering experience, and a track r
 
 ## 💼 Professional Experience
 <details open>
-<summary><b>AI Engineer</b> | ThingTrax (Jul 2025 – Present)</summary>
+<summary><b>Computer Vision / MLOps Engineer</b> | ThingTrax (Jul 2025 – Present)</summary>
 
-**Lahore, Pakistan** · Manufacturing IoT / Vision AI  
+**Lahore, Pakistan** · Industrial vision & training infrastructure  
 
-ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance (OEE, quality, downtime). My work sits on the vision side of that stack:
+High-level scope (no proprietary product or client detail):
 
-- Design and implement computer vision algorithms for object detection, image segmentation, classification, and tracking.
-- Build real-time video analytics pipelines with OpenCV, YOLO, and related frameworks.
-- Preprocess, augment, and label data to improve model performance in production settings.
-- Optimize and deploy models on edge devices and cloud infrastructure.
-- Collaborate with data scientists, software engineers, and product managers to ship factory-ready systems.
-- Stay current with computer vision and deep learning research and apply what holds up in the field.
+- Design and ship real-time vision pipelines for defect detection, OCR, barcode/QR reading, dimensional checks, and telemetry.
+- Build and maintain edge deployments on Linux (systemd services, camera reconnection, health monitoring, firewalled networks).
+- Deliver operator-facing web UIs for camera and vision-tool configuration (Flask, JavaScript, MongoDB-backed settings).
+- Integrate factory hardware: GigE cameras, PLC rejection triggers, industrial label printers.
+- Own MLOps pieces: multi-tenant GPU training orchestration, YOLO train/eval, dataset handling (e.g. object storage), model versioning, JWT service auth.
+- Improve reliability under load (process isolation for GPU/OCR memory issues, structured logging, stale-feed detection).
 </details>
 
+---
+
+## 🧩 What I Work On
+Abstract themes only — no internal repo names, file paths, or customer identifiers.
+
+| Theme | What it means in practice |
+|--------|---------------------------|
+| **Industrial vision QC** | Real-time inspection on edge Ubuntu servers with industrial cameras; multi-service pipelines for defects, OCR, codes, and measurement |
+| **Reliability at the edge** | Camera auto-reconnect, stale-feed alerts, GPU/OCR process isolation, rotating logs, systemd service management |
+| **Operator tooling** | Web UIs for camera ROI/rotation/config and vision-tool settings without SSH |
+| **Factory integrations** | PLC-driven reject logic, GigE Vision networking, industrial printer drivers, MQTT telemetry |
+| **MLOps / training** | Multi-tenant GPU training queues, YOLO (incl. OBB) train & eval, dataset split/scoring, service-to-service JWT APIs |
+| **Food-line analytics** | Segmentation-based quality grading metrics (e.g. lean / surface coverage style analytics) |
 
 ---
 
@@ -69,18 +84,51 @@ ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance 
 ---
 
 ## 🛠️ Skills
-### AI & Computer Vision
+Technology list only — capabilities from day-to-day CV/MLOps work, without proprietary internals.
+
+### Computer Vision
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Vision-green?logo=opencv)
-![YOLO](https://img.shields.io/badge/YOLO-Detection-red)
-![Git](https://img.shields.io/badge/Git-Version_Control-red?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Projects-black?logo=github)
-- Object detection, segmentation, classification, tracking
-- Real-time video analytics & inference pipelines
-- Data preprocessing, augmentation, and labeling
-- Edge & cloud model deployment
-- Deep learning research applied to industrial systems
+![YOLO](https://img.shields.io/badge/YOLO_v8%2Fv11-Detection-red)
+![PaddleOCR](https://img.shields.io/badge/PaddleOCR-OCR-yellow)
+- Object detection, segmentation, OBB, defect detection
+- OCR, barcode/QR reading, dimensional / quality analytics
+- Real-time video pipelines (OpenCV, NumPy, GigE Vision cameras)
 
+### ML / MLOps
+![FastAPI](https://img.shields.io/badge/FastAPI-APIs-009688?logo=fastapi)
+![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker)
+- Multi-GPU / multi-tenant training orchestration & queues
+- YOLO training, validation splits, scoring, model versioning
+- Object-storage dataset workflows, progress tracking, JWT service auth
+- CUDA / GPU memory hygiene, multiprocessing, process supervision
+
+### Backend & Data
+![MongoDB](https://img.shields.io/badge/MongoDB-Config_Store-green?logo=mongodb)
+![MQTT](https://img.shields.io/badge/MQTT-Telemetry-purple)
+![SQL](https://img.shields.io/badge/SQL-Database-green?logo=postgresql)
+![Apache Kafka](https://img.shields.io/badge/Kafka-Streaming-black?logo=apachekafka)
+- REST APIs (Flask, FastAPI / Flask-RESTX, OpenAPI/Swagger)
+- MongoDB-backed dynamic configuration, MQTT (e.g. EMQX) telemetry
+- ETL/ELT, PySpark, warehousing; Tableau / Power BI analytics
+
+### Systems & Industrial
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-FCC624?logo=linux)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-CI%2FCD-0078D7?logo=azuredevops)
+- systemd services, firewalled edge servers, iptables automation
+- GigE Vision (GVCP/GVSP), PLC integration, industrial printer protocols
+- Health checks, fault-tolerant camera reconnection
+
+### Frontend & Collaboration
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)
+![TypeScript](https://img.shields.io/badge/TypeScript-Typed_JS-blue?logo=typescript)
+![React](https://img.shields.io/badge/React-UI-61DAFB?logo=react)
+![Git](https://img.shields.io/badge/Git-Version_Control-red?logo=git)
+- Operator UIs: JavaScript, HTML, Tailwind, Jinja2
+- Public work: React + TypeScript (Vite), Hacktoberfest UI contributions
+- Git / GitHub / Azure DevOps collaboration & PR workflows
 
 ### Soft Skills
 - Leadership & mentorship
@@ -93,6 +141,7 @@ ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance 
 
 ## 🔥 Passions
 - **Computer Vision & Industrial AI**
+- **MLOps & reliable edge systems**
 - **Science & Technology**
 - **Research & Lifelong Learning**
 - **Quantum Computing**
