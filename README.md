@@ -7,26 +7,29 @@ Lahore, Pakistan · [LinkedIn](https://linkedin.com/in/huzaifanawaz) · [nawazhu
 
 ## About
 
-I build **production vision systems** for manufacturing — real-time QC pipelines (**detection**, **segmentation**, **OCR**, measurement), **edge deployments** that stay reliable on factory networks, and the **MLOps** layer that trains and versions those models.
+I build **production vision systems** for manufacturing — real-time QC pipelines (**detection**, **segmentation**, **OCR**, measurement), **edge deployments** that stay reliable on factory networks, and the **MLOps** layer that trains, evaluates, and versions those models.
+
+Recent work spans industrial inspection on the edge, operator tooling, training orchestration across GPUs, and hardening systems for long-running production use.
 
 ## Experience
 
 ### Computer Vision / MLOps Engineer — ThingTrax
 **Jul 2025 – Present** · Lahore, Pakistan
 
-- **Real-time vision pipelines:** defect detection, OCR, barcode/QR reading, dimensional checks, telemetry
-- **Edge Linux deployments:** systemd services, camera reconnection, health monitoring, firewalled networks
-- **Operator web UIs** for camera and vision-tool configuration (**Flask**, **JavaScript**, **MongoDB**)
-- **Factory integrations:** GigE cameras, PLC rejection triggers, industrial label printers
-- **MLOps:** multi-tenant GPU training, **YOLO** train/eval, dataset handling, model versioning, JWT service auth
-- **Reliability:** GPU/OCR process isolation, structured logging, stale-feed detection
+- **Real-time vision pipelines:** defect detection, OCR, barcode/QR reading, dimensional checks, quality analytics, MQTT telemetry
+- **Edge camera ops:** GigE lifecycle (reconnect, preview/recording), ROI/config UIs, resume cameras after deploy/model switch
+- **Operator tooling:** Flask/JS monitoring UIs; config-as-data in **MongoDB** (e.g. OCR parameters)
+- **Reliability:** CUDA/OCR process isolation, stale/no-feed detection, structured logging, systemd services on firewalled Linux hosts
+- **Factory integrations:** PLC-adjacent rejection/events, industrial printers, GigE networking / firewall automation
+- **MLOps:** multi-tenant GPU training queues, **YOLO** train/eval (holdout scoring, auto-batch, augmentation controls), hang-process recovery, JWT service auth, object-storage datasets
+- **Quality:** pytest coverage for camera processes, analytics, loaders, and event logic
 
 ## Focus areas
 
-- **Industrial vision QC** on edge servers
-- **Training orchestration** and model evaluation (**YOLO**, including OBB)
+- **Industrial vision QC** on edge Ubuntu servers
+- **Training orchestration** — multi-GPU queues, evaluation, process supervision
 - **Operator tooling** and REST APIs
-- **Hardware integration** — cameras, PLCs, printers, MQTT
+- **Hardware & infra** — cameras, PLCs, printers, MQTT, firewalled deploys
 
 ## Education
 
@@ -48,19 +51,19 @@ I build **production vision systems** for manufacturing — real-time QC pipelin
 [![Technologies](https://skillicons.dev/icons?i=opencv,fastapi,flask,docker,mongodb,kafka,linux,azure,react,tailwind,vite,git,github&perline=7)](https://skillicons.dev)
 
 ### Computer vision
-**OpenCV** · **YOLOv8 / YOLOv11** · **PaddleOCR** · **NumPy** · GigE Vision · segmentation · OBB · defect detection
+**OpenCV** · **YOLOv8 / YOLOv11** · **PaddleOCR** · **NumPy** · GigE Vision · segmentation · defect detection · real-time metrics
 
 ### ML / MLOps
-**FastAPI** · **Flask** · **Docker** · multi-GPU training queues · model versioning · **CUDA** · multiprocessing · JWT service auth
+**FastAPI** · **Flask** · multi-GPU / multi-tenant training · model evaluation · auto-batch · augmentation control · process supervision · object-storage datasets · JWT service auth
 
 ### Backend & data
-**MongoDB** · **MQTT** · REST / OpenAPI · **Kafka** · **PySpark** · Tableau · Power BI
+**MongoDB** · **MQTT** (e.g. EMQX) · REST / OpenAPI · **Kafka** · S3-style image/dataset pipelines
 
 ### Systems & industrial
-**Linux** · systemd · **Azure DevOps** · iptables · PLC integration · industrial printers
+**Linux** · systemd · **Azure DevOps** · iptables · PLC rejection flows · industrial printer protocols · firewalled production hosts
 
-### Frontend
-**React** · **Tailwind CSS** · Jinja2 · **Vite**
+### Frontend & quality
+**JavaScript** · Jinja2 · **React** · **Tailwind** · **Vite** · **pytest**
 
 ## Leadership
 
