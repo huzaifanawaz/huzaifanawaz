@@ -1,6 +1,5 @@
 # 👋 Huzaifa Nawaz
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Huzaifa_Nawaz-blue?logo=linkedin)](https://linkedin.com/in/huzaifanawaz)  
+ 
 **AI Engineer @ [ThingTrax](https://thingtrax.com)** — building computer vision systems that help manufacturers see, measure, and optimize production in real time.
 
 ---
@@ -49,28 +48,11 @@ ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance 
 - Stay current with computer vision and deep learning research and apply what holds up in the field.
 </details>
 
-<details>
-<summary><b>Data Engineering Intern</b> | Bytewise Limited (Jun–Oct 2024)</summary>
-
-**Remote, Pakistan**  
-
-- Worked with PostgreSQL, ETL/ELT pipelines, PySpark, Apache Kafka, and data warehousing.
-- Built and exercised scalable data solutions in cloud environments.
-</details>
-
-<details>
-<summary><b>Freelance Data Analyst</b> | Self-Employed</summary>
-
-**~1.5 years**  
-
-- Delivered insights for clients using SQL, Tableau, Power BI, Excel, and Python.
-- Supported data-driven decisions across multiple industries.
-</details>
 
 ---
 
 ## 🎓 Education
-- **MS Computer Science** — National University of Sciences and Technology (NUST) · 2024–2025
+- **MS Computer Science** — National University of Sciences and Technology (NUST) [dropped out for market experience] · 2024–2025
 - **BS Information Technology** — The Islamia University of Bahawalpur · 2020–2024
 
 ---
@@ -99,13 +81,6 @@ ThingTrax builds IoT SaaS and camera-based vision for manufacturing performance 
 - Edge & cloud model deployment
 - Deep learning research applied to industrial systems
 
-### Data & Cloud
-![SQL](https://img.shields.io/badge/SQL-Database-green?logo=postgresql)
-![Apache Kafka](https://img.shields.io/badge/Kafka-Streaming-black?logo=apachekafka)
-![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange?logo=tableau)
-![Power BI](https://img.shields.io/badge/Power_BI-Dashboards-yellow?logo=powerbi)
-- ETL/ELT, PySpark, data warehousing
-- Analytics, visualization, cloud (Azure, IBM Cloud)
 
 ### Soft Skills
 - Leadership & mentorship
