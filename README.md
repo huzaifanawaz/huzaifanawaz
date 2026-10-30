@@ -1,7 +1,7 @@
 # Huzaifa Nawaz
 
 **Computer Vision / MLOps Engineer** at [ThingTrax](https://thingtrax.com)  
-Lahore, Pakistan · [LinkedIn](https://linkedin.com/in/huzaifanawaz) · [nawazhuzaifa286@gmail.com](mailto:nawazhuzaifa286@gmail.com)
+Islamabad, Pakistan · [LinkedIn](https://linkedin.com/in/huzaifanawaz) · [Instagram](https://www.instagram.com/huzaifa1363/) · [Tableau](https://public.tableau.com/app/profile/hnawaz/vizzes) · [nawazhuzaifa286@gmail.com](mailto:nawazhuzaifa286@gmail.com)
 
 ---
 
@@ -72,4 +72,4 @@ Before this I studied Computer Science, spent time in data engineering/analytics
 ---
 
 Open to conversations about **computer vision**, **edge ML**, and **production MLOps**.  
-Reach me on [LinkedIn](https://linkedin.com/in/huzaifanawaz) or [email](mailto:nawazhuzaifa286@gmail.com).
+Reach me on [LinkedIn](https://linkedin.com/in/huzaifanawaz), [Instagram](https://www.instagram.com/huzaifa1363/), [Tableau Public](https://public.tableau.com/app/profile/hnawaz/vizzes), or [email](mailto:nawazhuzaifa286@gmail.com).
